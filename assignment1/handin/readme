@@ -1,0 +1,22 @@
+You can do what you want to do with the menu at the top of the window.
+
+This is a simple introduction of Photo Shop Mini.
+
+Click "File/Exit" to close Photo Shop Mini.
+Click "File/Open" and select photo you want, and then it will appear in the window.
+
+After select photo and import it, you can:
+
+Click "Edit/..." to do these operations.
+Robert, Prewitt, Sobel kernel size is fixed 3.
+You can click "Setting" to change filter kernel size and sigma.
+
+Once you click "Setting", a supwindow will appear.
+There are three input box and one scale, three kernel size should only be odd.
+Then you can click "OK" button to save your changes.
+
+Click "Help" to get this.
+
+Enjoy!!
+
+executable file in ./dist

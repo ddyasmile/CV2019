@@ -1,0 +1,13 @@
+
+__pycache__
+
+.vscode
+build
+dist
+
+*.spec
+*.zip
+*.jpg
+*.jpeg
+
+main
