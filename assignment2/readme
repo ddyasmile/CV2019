@@ -1,1 +1,32 @@
-readme
+You can do what you want to do with the menu at the top of the window.
+
+This is a simple introduction of Photo Shop Mini.
+
+Click "File/Exit" to close Photo Shop Mini.
+Click "File/Open" and select photo you want, and then it will appear in the window.
+
+After select photo and import it, you can:
+
+Click "Edit/..." to do these operations：
+    Morphological edge detection (binary)
+    Conditional dilation in binary image
+    Gray scale Reconstruction
+    Morphological gradient
+
+There is a 5x5 default structure element and a default anchor (-1,-1) which means the center of SE.
+
+You can click "Setting/..." to change SE size, anchor and structure element.
+SE size and anchor are both Tuple.
+The input entry of SE size only contains non-negative numbers.
+The input entry of Anchor contains non-negative numbers and negative numbers,
+    but it don't receive a single '-', so if you want reset anchor as (-1,-1),
+    you need directly paste '-1' to input entry.
+And you should also directly delete '-1'.
+'structure element' is seemed as 'None' default, so there is nothing in input entrys at the first time you see it.
+But if you click 'Save' with nothing is input entrys, the structure element will be set with '0'.
+You can reset SE to default SE with 'Clean' and exit directly instead of to click 'Save'.
+'Clean SE' can reset SE to default SE directly.
+
+Click "Help" to get this.
+
+Enjoy!!
