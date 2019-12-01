@@ -4,10 +4,12 @@ __pycache__
 .vscode
 build
 dist
+reference
 
 *.spec
 *.zip
 *.jpg
 *.jpeg
+*.png
 
 main
